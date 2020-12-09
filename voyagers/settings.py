@@ -27,8 +27,8 @@ SECRET_KEY = 'y)nj1vyk3v4-vq=!ez@578wty7(d8@lp#*a*r6hnn1#(#2g$ls'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['voyagers-web.herokuapp.com']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['voyagers-web.herokuapp.com']
+# ALLOWED_HOSTS = []
 
 
 

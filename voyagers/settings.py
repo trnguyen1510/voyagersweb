@@ -22,12 +22,14 @@ print("base dir path", BASE_DIR)
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'y)nj1vyk3v4-vq=!ez@578wty7(d8@lp#*a*r6hnn1#(#2g$ls'
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'y)nj1vyk3v4-vq=!ez@578wty7(d8@lp#*a*r6hnn1#(#2g$ls'
+#SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['voyagers-web.herokuapp.com']
+#ALLOWED_HOSTS = ['voyagers-web.herokuapp.com']
+ALLOWED_HOSTS = []
+
 
 
 # Application definition
